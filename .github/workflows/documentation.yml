@@ -2,9 +2,9 @@ name: documentation
 
 on:
   pull_request:
-    branches: [documentation]
+    branches: [master]
   push:
-    branches: [documentation]
+    branches: [master]
 
 jobs:
   checks:
@@ -21,16 +21,13 @@ jobs:
           registry-url: https://registry.npmjs.org
           cache: 'yarn'
 
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
       - name: Test Build
         run: |
-          if [ -e yarn.lock ]; then
-            yarn install --frozen-lockfile
-          elif [ -e package-lock.json ]; then
-            npm ci
-          else
-            npm i
-          fi
-          npm run build
+          yarn build
+
   gh-release:
     if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
@@ -49,6 +46,9 @@ jobs:
         with:
           ssh-private-key: ${{ secrets.GH_PAGES_DEPLOY }}
 
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
       - name: Release to GitHub Pages
         env:
           USE_SSH: true
@@ -56,11 +56,4 @@ jobs:
         run: |
           git config --global user.email "manekiswap@gmail.com"
           git config --global user.name "theplayer06"
-          if [ -e yarn.lock ]; then
-            yarn install --frozen-lockfile
-          elif [ -e package-lock.json ]; then
-            npm ci
-          else
-            npm i
-          fi
-          npm run deploy
+          yarn deploy
