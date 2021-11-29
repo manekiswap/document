@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Manekiswap Document',
+  title: 'Manekiswap - Knowledge base',
   tagline: 'Manekiswap',
-  url: 'https://document.manekiswap.com',
+  url: 'https://info.manekiswap.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -21,9 +21,17 @@ const config = {
       '@docusaurus/preset-classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        blog: {
+          path: "blog",
+          routeBasePath: "/blog",
+          showReadingTime: true,
+          editUrl: 'https://github.com/manekiswap/manekiswap.github.io/edit/master/',
+        },
         docs: {
+          path: "docs",
+          routeBasePath: "/",
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/manekiswap/document/edit/master/',
+          editUrl: 'https://github.com/manekiswap/manekiswap.github.io/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -43,7 +51,14 @@ const config = {
         },
         items: [
           {
-            href: 'https://github.com/manekiswap/document',
+            type: 'doc',
+            docId: 'concepts/protocol-overview/01-how-uniswap-works',
+            position: 'left',
+            label: 'Document',
+          },
+          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            href: 'https://github.com/manekiswap/manekiswap.github.io',
             label: 'GitHub',
             position: 'right',
           },
@@ -53,11 +68,14 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Links',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Docs',
+                to: '/',
+              },{
+                label: 'Blog',
+                to: '/blog',
               },
             ],
           },
@@ -78,10 +96,6 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                href: 'https://blog.manekiswap.com',
-              },
-              {
                 label: 'GitHub',
                 href: 'https://github.com/manekiswap',
               },
@@ -93,6 +107,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        additionalLanguages: ["solidity"],
       },
     }),
 };
