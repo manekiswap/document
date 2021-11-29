@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_manekiswap_document=self.webpackChunk_manekiswap_document||[]).push([[477],{10:function(e){e.exports={blogPosts:[]}}}]);
