@@ -1,4 +1,4 @@
-name: documentation
+name: Release
 
 on:
   pull_request:
@@ -8,6 +8,7 @@ on:
 
 jobs:
   checks:
+    name: Check
     if: github.event_name != 'push'
     runs-on: ubuntu-latest
     steps:
@@ -29,6 +30,7 @@ jobs:
           yarn build
 
   gh-release:
+    name: Release
     if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     steps:

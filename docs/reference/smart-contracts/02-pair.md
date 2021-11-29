@@ -160,7 +160,7 @@ Swaps tokens. For regular swaps, `data.length` must be `0`. Also see <Link to='/
 function skim(address to) external;
 ```
 
-See the <a href='/whitepaper.pdf' target='_blank' rel='noopener noreferrer'>whitepaper</a>.
+See the <a href='https://uniswap.org/whitepaper.pdf' target='_blank' rel='noopener noreferrer'>whitepaper</a>.
 
 ## sync
 
@@ -168,7 +168,7 @@ See the <a href='/whitepaper.pdf' target='_blank' rel='noopener noreferrer'>whit
 function sync() external;
 ```
 
-See the <a href='/whitepaper.pdf' target='_blank' rel='noopener noreferrer'>whitepaper</a>.
+See the <a href='https://uniswap.org/whitepaper.pdf' target='_blank' rel='noopener noreferrer'>whitepaper</a>.
 
 - Emits [Sync](#sync).
 
