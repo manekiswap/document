@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_manekiswap_document=self.webpackChunk_manekiswap_document||[]).push([[2535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome to Manekiswap","permalink":"/blog/2021-12-01-welcome"}]}')}}]);
