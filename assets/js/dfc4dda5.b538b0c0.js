@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_manekiswap_kb=self.webpackChunk_manekiswap_kb||[]).push([[7950],{4165:function(a){a.exports=JSON.parse('{"name":"faq","permalink":"/tags/faq","docs":[{"id":"tips/01-faq","title":"FAQ","description":"If you have any additional questions apart from the above that you require","permalink":"/tips/01-faq"}],"allTagsPath":"/tags"}')}}]);

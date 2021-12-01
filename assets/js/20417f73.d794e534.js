@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_manekiswap_kb=self.webpackChunk_manekiswap_kb||[]).push([[743],{7456:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/introduction","name":"introduction","count":1,"permalink":"/blog/tags/introduction"}')}}]);

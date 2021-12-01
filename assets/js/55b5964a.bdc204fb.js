@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_manekiswap_document=self.webpackChunk_manekiswap_document||[]).push([[3002],{3340:function(t){t.exports=JSON.parse('{"name":"introduction","permalink":"/tags/introduction","docs":[{"id":"01-introduction","title":"Introduction","description":"Cryptocurrencies have shown to be the fastest growing asset","permalink":"/"}],"allTagsPath":"/tags"}')}}]);
