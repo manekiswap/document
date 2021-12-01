@@ -1,9 +1,25 @@
 {
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
   },
   "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[mdx]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
   },
@@ -14,11 +30,23 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.codeActionsOnSave": {
-    "source.fixAll": true
+    "source.fixAll": true,
+    "source.fixAll.eslint": true
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "javascript.preferences.importModuleSpecifier": "relative",
   "typescript.preferences.importModuleSpecifier": "relative",
-  "git.pruneOnFetch": true
+  "git.pruneOnFetch": true,
+  "eslint.options": {
+    "extensions": [".js", ".jsx", ".md", ".mdx", ".ts", ".tsx"]
+  },
+  "eslint.validate": [
+    "markdown",
+    "mdx",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ]
 }

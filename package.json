@@ -1,8 +1,8 @@
 {
-  "name": "@manekiswap/document",
+  "name": "@manekiswap/kb",
   "version": "1.0.0",
-  "description": "Manekiswap Document",
-  "repository": "https://github.com/manekiswap/document.git",
+  "description": "Manekiswap Knowledge base",
+  "repository": "https://github.com/manekiswap/manekiswap.github.com.git",
   "author": "Manekiswap",
   "license": "MIT",
   "scripts": {
@@ -32,6 +32,17 @@
   "devDependencies": {
     "@docusaurus/module-type-aliases": "2.0.0-beta.9",
     "@tsconfig/docusaurus": "1.0.4",
+    "@typescript-eslint/eslint-plugin": "5.5.0",
+    "@typescript-eslint/parser": "5.5.0",
+    "eslint": "8.3.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-import": "2.25.3",
+    "eslint-plugin-mdx": "1.16.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "eslint-plugin-react": "7.27.1",
+    "eslint-plugin-react-hooks": "4.3.0",
+    "eslint-plugin-simple-import-sort": "7.0.0",
+    "prettier": "2.5.0",
     "typescript": "4.5.2"
   },
   "browserslist": {

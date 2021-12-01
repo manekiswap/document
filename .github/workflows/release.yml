@@ -27,6 +27,7 @@ jobs:
 
       - name: Test Build
         run: |
+          yarn typecheck
           yarn build
 
   gh-release:
