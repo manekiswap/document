@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_manekiswap_kb=self.webpackChunk_manekiswap_kb||[]).push([[492],{8708:function(a){a.exports=JSON.parse('{"name":"roadmap","permalink":"/tags/roadmap","docs":[{"id":"the-basics/07-roadmap","title":"Roadmap","description":"Roadmap","permalink":"/the-basics/07-roadmap"}],"allTagsPath":"/tags"}')}}]);
