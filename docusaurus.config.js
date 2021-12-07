@@ -9,6 +9,7 @@ const config = {
   title: "Manekiswap - Knowledge base",
   tagline: "Manekiswap",
   url: "https://info.manekiswap.com",
+  trailingSlash: false,
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -41,7 +42,6 @@ const config = {
       }),
     ],
   ],
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -54,7 +54,7 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "01-introduction",
+            docId: "introduction/01-introduction",
             position: "left",
             label: "Document",
           },
@@ -111,6 +111,10 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
         additionalLanguages: ["solidity"],
+      },
+      gtag: {
+        trackingID: "G-HDLZLCC77V",
+        anonymizeIP: true,
       },
     }),
 };

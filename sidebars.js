@@ -13,7 +13,7 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
   docs: [
-    "01-introduction",
+    "introduction/01-introduction",
     {
       type: "category",
       label: "The basics",
