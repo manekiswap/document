@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_manekiswap_kb=self.webpackChunk_manekiswap_kb||[]).push([[4385],{7814:function(e){e.exports=JSON.parse('{"name":"exchange","permalink":"/tags/exchange","docs":[{"id":"guides/02-where-to-buy","title":"Where\'s to buy $MNK?","description":"","permalink":"/guides/02-where-to-buy"}],"allTagsPath":"/tags"}')}}]);
