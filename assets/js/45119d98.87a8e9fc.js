@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_manekiswap_kb=self.webpackChunk_manekiswap_kb||[]).push([[507],{6546:function(e){e.exports=JSON.parse('{"name":"usage","permalink":"/tags/usage","docs":[{"id":"the-basics/06-token","title":"$MNK Token Utility","description":"TBD","permalink":"/the-basics/06-token"}],"allTagsPath":"/tags"}')}}]);
